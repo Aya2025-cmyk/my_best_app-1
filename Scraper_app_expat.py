@@ -185,7 +185,7 @@ def load_motocycle_data(mul_page):
 
 st.sidebar.header('User Input Features')
 Pages = st.sidebar.selectbox('Pages indexes', list([int(p) for p in np.arange(2, 600)]))
-Choices = st.sidebar.selectbox('Options', ['Scrape data using beautifulSoup', 'Download scraped data', 'Dashbord of the data',  'Fill the form'])
+Choices = st.sidebar.selectbox('Options', ['Scrape data using beautifulSoup', 'Download scraped data',  'Fill the form'])
 
 
 
